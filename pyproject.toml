@@ -1,0 +1,22 @@
+[project]
+name = "fraud-detection"
+version = "0.1.0"
+description = "A mock project for end-to-end machine learning on IEEE CIS Fraud data"
+authors = [
+    {name = "Yerlan Amanzholov",email = "yerla.amanzholov@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas (>=2.3.3,<3.0.0)",
+    "ipykernel (>=7.1.0,<8.0.0)",
+    "pre-commit (>=4.5.1,<5.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false
